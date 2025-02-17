@@ -1,6 +1,6 @@
-# React + Vite
+# Zappify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Private website built only for practice purpose
 
 Currently, two official plugins are available:
 
