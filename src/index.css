@@ -1,0 +1,34 @@
+/* @tailwind base;
+@tailwind components; */
+@tailwind utilities;
+@import "tailwindcss/preflight";
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer components {
+    .shadow-glow-green {
+      box-shadow: 0 0 10px 5px #96ca812b;
+    }
+    /* .text-glow {
+      text-shadow: 0 0 20px #96ca81ad, 0 0 20px #96ca81ad;
+    } */
+  }
+
+.container {
+  margin-inline : auto;
+}
+
+body {
+    cursor : none;
+}
+
+img {
+    object-fit: cover;
+}   
+
+/* ini buat flip card */
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+} 
