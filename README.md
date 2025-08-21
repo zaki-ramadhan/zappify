@@ -1,6 +1,16 @@
 # Zappify
 
-A simple React + Vite + Tailwind CSS project for practice and experimentation.
+<a href="https://zappify.vercel.app">
+  <img src="public/web-preview.png" alt="Preview Website" width="100%">
+</a>
+
+A personal practice project to sharpen my **React** and **UI design** skills with **Vite** and **Tailwind CSS**.
+
+## About
+
+* I recreate (**slice**) pages and components I find on the internet to study layout, typography, and interactions.
+* Built purely for learning; non‑commercial and not affiliated with original sources.
+* Tech stack: React, Vite, Tailwind CSS.
 
 ---
 
@@ -42,5 +52,4 @@ src/
 ---
 
 ## 🌐 Deployment
-
-* **Live (Vercel):** [https://zappify.vercel.app](https://zappify.vercel.app)
+* **Vercel:** [https://zappify.vercel.app](https://zappify.vercel.app)
