@@ -2,7 +2,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
 // import SplashCursor from '@effects/SplashCursor';
-import Cursor from '@common/Cursor';
+// import Cursor from '@common/Cursor';
 
 import {Home, Login, Register, NotFound, Pricing, FindPassion, Categories, Entertainment} from './pages/';
 const AppWrapper = () => {
@@ -13,7 +13,7 @@ const AppWrapper = () => {
 
     return (
         <>
-            <Cursor />
+            {/* <Cursor /> */}
             {/* kalo di halaman pricing, jgn menampilkan splash cursor */}
             {/* {!inPricing && !inCategories && !inFindPassion && <SplashCursor />} */}
             <Routes>
