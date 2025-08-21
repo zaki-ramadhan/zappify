@@ -1,12 +1,46 @@
-# React + Vite
+# Zappify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React + Vite + Tailwind CSS project for practice and experimentation.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Getting Started
 
-## Expanding the ESLint configuration
+```bash
+# Clone repository
+git clone https://github.com/zaki-ramadhan/zappify.git
+cd zappify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Install dependencies
+npm install   # or yarn / pnpm
+
+# Run development server
+npm run dev   # default: http://localhost:5173
+```
+
+---
+
+## 📦 Scripts
+
+* `dev` – start development server
+* `build` – build for production
+* `preview` – preview production build
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+├─ assets/       # Static files
+├─ components/   # Reusable UI parts
+├─ pages/        # Page-level components
+├─ App.jsx       # Root app
+└─ main.jsx      # Entry point
+```
+
+---
+
+## 🌐 Deployment
+
+* **Live (Vercel):** [https://zappify.vercel.app](https://zappify.vercel.app)
